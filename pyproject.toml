@@ -1,0 +1,33 @@
+[project]
+name = "ai-agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai",
+    "openai-agents",
+    "python-dotenv",
+    "pydantic",
+    "httpx",
+    "langchain",
+    "langchain-core",
+    "langchain-openai",
+    "langgraph",
+    "langgraph-checkpoint",
+    "langgraph-checkpoint-sqlite",
+    "mcp[cli]>=2,<3",
+    "fastapi",
+    "uvicorn[standard]",
+    "sqlalchemy",
+    "psycopg2-binary",
+    "pytest",
+    "pytest-asyncio",
+    "langsmith",
+    "anyio",
+    "langgraph-checkpoint-postgres>=3.1.2",
+    "beautifulsoup4>=4.15.0",
+    "markdown-it-py>=4.2.0",
+    "pgvector>=0.5.0",
+    "asyncpg>=0.31.0",
+]

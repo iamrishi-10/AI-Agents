@@ -1,0 +1,51 @@
+# Phase 11 — Agentic AI
+# Consolidated requirements for:
+# Tool Calling, Agent Fundamentals, LangGraph, Persistence, HITL,
+# MCP, Agent Memory, Multi-Agent Systems, Agent Evals,
+# Harness Engineering, Loop Engineering, and Agentic AI Capstone.
+
+# --- Core LLM / Tool Calling ---
+openai
+python-dotenv
+pydantic
+openai-agents
+
+# --- HTTP / External Tool Integrations ---
+httpx
+
+# --- LangChain / LangGraph ---
+langchain
+langchain-core
+langchain-openai
+langgraph
+
+# --- LangGraph Persistence / Checkpointing ---
+langgraph-checkpoint
+langgraph-checkpoint-sqlite
+
+langgraph-checkpoint-postgres>=3.1.2
+
+# --- MCP (Model Context Protocol) ---
+mcp[cli]>=2,<3
+
+# --- API Layer for Agentic Capstone ---
+fastapi
+uvicorn[standard]
+
+# --- ORM / Database (PostgreSQL) ---
+sqlalchemy
+psycopg2-binary==2.9.13
+asyncpg
+pgvector>=0.5.0
+
+# --- Evaluation / Testing ---
+pytest
+pytest-asyncio
+langsmith
+
+# --- Useful structured / async utilities ---
+anyio
+
+# --- HTML / Markdown Parsing ---
+beautifulsoup4>=4.15.0
+markdown-it-py>=4.2.0
