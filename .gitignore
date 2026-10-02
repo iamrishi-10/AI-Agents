@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+graphify-out
+.env
+.claude
+# IDE / local tooling
+.idea/
+.vscode/
+.claude/
+
+# Third-party course/reference repository
+Ed Doner LLM Engineering/
